@@ -2,7 +2,7 @@ source("src/functions.R")
 
 #run model
 probando <- 
-evaluate.model(distanciamiento_social = 100, 
+evaluate.model(contacto_social = 100, 
                aislamiento_enfermos = T, 
                iniciales = 1)
 

@@ -148,7 +148,7 @@ model <- function (x, params, nstep) {  #function to simulate stochastic SIR
 #evaluate model 
 ################################################################################
 
-evaluate.model <- function(distanciamiento_social=100,
+evaluate.model <- function(contacto_social=100,
                            aislamiento_enfermos=TRUE,
                            iniciales = 1,
                            nsims=2, 
@@ -171,7 +171,7 @@ evaluate.model <- function(distanciamiento_social=100,
               z = ifelse(aislamiento_enfermos==TRUE, 12, 1200),
               b=0.143, 
               a0=1/1.5, 
-              w = 1200*(distanciamiento_social/100),
+              w = 1200*(contacto_social/100),
               c=1, 
               presymptomatic=1, 
               dt=0.05)
