@@ -1,0 +1,5 @@
+####
+# Referencias que se perdieron en algún commit o fork
+####
+
+https://github.com/atredennick/ncov-wuhan-stochastic-model -> la implementacion original
